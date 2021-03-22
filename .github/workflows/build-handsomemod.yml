@@ -63,7 +63,7 @@ jobs:
       run: cd handsomemod && ./scripts/feeds update -a
 
     - name: Install feeds
-      run: cd handsomemod && ./scripts/feeds install -a && ./scripts/feeds install -a
+      run: cd handsomemod && ./scripts/feeds install -a 
 
     - name: SSH connection to Actions
       uses: HandsomeYingyan/debugger-action@master
